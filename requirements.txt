@@ -1,0 +1,26 @@
+# 데이터 수집 (Crawling)
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+
+# 문서 파싱 (PDF & HWP)
+PyMuPDF  # fitz 패키지용
+olefile
+# (참고: HWP 파싱에 pyhwp를 쓸 수도 있으나, 우선 olefile 기반 추출을 시도합니다)
+
+# AI, RAG 파이프라인 & 임베딩
+langchain
+langchain-community
+langchain-core
+langchain-openai        # OpenAI 사용 시 (Gemini 사용 시 langchain-google-genai 추가)
+tiktoken                # 텍스트 분할 시 토큰 계산용
+
+# 벡터 데이터베이스
+chromadb
+
+# 웹 프론트엔드
+streamlit
+
+# 환경 변수 관리
+python-dotenv
